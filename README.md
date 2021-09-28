@@ -32,12 +32,22 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 - Environment Arguments
 
 ## Related Reference
+- 축구선수 데이터 : [football-api](https://football-api.com/)
+- 축구선수 이름 번역(한글->영문) : [파파고](https://developers.naver.com/docs/papago/papago-nmt-overview.md)
 
 ## Code Convention
-*working*
+*working(https://github.com/diffplug/spotless)*
 
 ## Maintainers
 
 [junghyunlyoo](https://github.com/JungHyunLyoo)
+- project owner
+- server developer
+- infra
+
 [pjhdev](https://github.com/pjhdev)
+- server developer
+- infra
+
 [ChoHyungkeun](https://github.com/ChoHyungkeun)
+- server developer
