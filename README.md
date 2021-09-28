@@ -1,12 +1,13 @@
 ****
 # Table Of Content
 1. [Introduction](#introduction)
-2. [Network Flow](#network-flow)
-3. [Configuration](#configuration)
-4. [Usage](#usage)
-5. [Related Reference](#related-reference)
-6. [Code Convention](#code-convention)
-7. [Maintainers](#maintainers)
+2. [Initial Desgin](#initial-design)
+3. [Network Flow](#network-flow)
+4. [Configuration](#configuration)
+5. [Usage](#usage)
+6. [Related Reference](#related-reference)
+7. [Code Convention](#code-convention)
+8. [Maintainers](#maintainers)
 ****
 
 ## Introduction
