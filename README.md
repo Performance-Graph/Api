@@ -34,8 +34,20 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 
 ## Usage
 - Prerequisites
+```
+1. ..
+2. ..
+```
 - Environment Arguments
+```
+1. ..
+2. ..
+```
 - run
+```
+1. ..
+2. ..
+```
 
 ## Related Reference
 - 축구선수 지표 : [football-api](https://football-api.com/)
