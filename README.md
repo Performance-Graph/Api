@@ -7,7 +7,8 @@
 5. [Usage](#usage)
 6. [Related Reference](#related-reference)
 7. [Code Convention](#code-convention)
-8. [Maintainers](#maintainers)
+8. [Todo](#todo)
+9. [Maintainers](#maintainers)
 ****
 
 ## Introduction
@@ -15,7 +16,7 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 
 이 프로젝트는 [Performance-Graph/Front](https://github.com/Performance-Graph/Front)와 [Performance-Graph/Api](https://github.com/Performance-Graph/Api)로 구성되어 있습니다. Performance-Graph/Front는 Javascript-React를 사용하고 Performance-Graph/Api는 Java-Spring-Mysql을 사용합니다.
 
-## Initial Desgin
+## Initial Design
 
 1. [draw.io](https://app.diagrams.net) 접속
 2. `https://raw.githubusercontent.com/Performance-Graph/Front/master/design.drawio`을 이용하여 file open 
