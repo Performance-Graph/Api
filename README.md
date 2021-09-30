@@ -33,7 +33,7 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 - Build : Gradle ?.?.?
 - Orm : Spring Data Jpa
 - DB : Mysql ?.?.?
-- Virtualization Platform : Docker ?.?.? (GitHub Container Registry)
+- Virtualization Platform : Docker ?.?.? (image repository : Amazon ECR)
 - CI : Travis CI
 - CD : AWS Code Deploy, S3 ([reference](https://velog.io/@jeff0720/Travis-CI-AWS-CodeDeploy-Docker-%EB%A1%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94-%EB%B0%8F-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0))
 
