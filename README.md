@@ -65,7 +65,7 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 
 1. k8s 적용
 2. Cache(Redis) 적용
-3. 로그인 구현
+3. 로그인 구현(Oauth)
 4. https 적용
 5. ELB 적용
 6. 타 스포츠 메뉴 추가
