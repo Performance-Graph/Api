@@ -13,6 +13,8 @@
 ## Introduction
 Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출전시간 등) 그래프화한 웹 프로젝트입니다. 이 프로젝트는 [네이버 스포츠](https://sports.news.naver.com/wfootball/record/index?category=epl&league=100&tab=player), [다음 스포츠](https://sports.daum.net/record/epl/person?season=20212022)에서 표 형태로 노출되는 축구 선수들의 성과 지표를 그래프로 시각화하여 비교합니다.  
 
+이 프로젝트는 [Performance-Graph/Front](https://github.com/Performance-Graph/Front)와 [Performance-Graph/Api](https://github.com/Performance-Graph/Api)로 구성되어 있습니다. Performance-Graph/Front는 Javascript-React를 사용하고 Performance-Graph/Api는 Java-Spring-Mysql을 사용합니다.
+
 ## Initial Desgin
 
 1. [draw.io](https://app.diagrams.net) 접속
