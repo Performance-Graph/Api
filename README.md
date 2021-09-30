@@ -19,8 +19,9 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 2. `https://raw.githubusercontent.com/Performance-Graph/Front/master/design.drawio`을 이용하여 file open 
 
 ## Network Flow
-- AWS EC2(nginx, tomcat)
-- 
+
+1. [draw.io](https://app.diagrams.net) 접속
+2. `https://raw.githubusercontent.com/Performance-Graph/Api/init-readme/network.drawio`을 이용하여 file open
 
 ## Configuration
 - IDE : Intellij
@@ -39,6 +40,13 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 
 ## Code Convention
 *working(https://github.com/diffplug/spotless)*
+
+## Todo
+
+1. 로그인 구현
+2. https 적용
+3. ELB 적용
+4. 타 스포츠 메뉴 추가
 
 ## Maintainers
 
