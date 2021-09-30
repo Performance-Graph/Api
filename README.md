@@ -30,6 +30,7 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 - IDE : Intellij
 - Language : Java 11(zulu11.50.19-ca-jdk11.0.12)
 - Framework : Spring Boot ?.?.? (spring ?.?.?)
+- Orm : Spring Data Jpa
 - DB : Mysql ?.?.?
 
 ## Usage
