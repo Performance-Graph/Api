@@ -32,6 +32,9 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 - Framework : Spring Boot ?.?.? (spring ?.?.?)
 - Orm : Spring Data Jpa
 - DB : Mysql ?.?.?
+- Container Docker
+
+GitHub Container Registry
 
 ## Usage
 ### Prerequisites
@@ -59,10 +62,11 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 
 ## Todo
 
-1. 로그인 구현
-2. https 적용
-3. ELB 적용
-4. 타 스포츠 메뉴 추가
+1. k8s 적용
+2. 로그인 구현
+3. https 적용
+4. ELB 적용
+5. 타 스포츠 메뉴 추가
 
 ## Maintainers
 
