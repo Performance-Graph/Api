@@ -24,7 +24,7 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 ## Network Flow
 
 1. [draw.io](https://app.diagrams.net) 접속
-2. `https://raw.githubusercontent.com/Performance-Graph/Api/init-readme/network.drawio`을 이용하여 file open
+2. `https://raw.githubusercontent.com/Performance-Graph/Api/master/docs/network.drawio`을 이용하여 file open
 
 ## Configuration
 - IDE : Intellij
