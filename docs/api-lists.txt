@@ -2,15 +2,18 @@
 - 스포츠 리스트 조회
 	- method : GET
 	- url : /sports
-	- request param : is_active=boolean 
-	- response body : {
-		sports : [
-			{
-				name : string,
-				image_url : string
-			}
-		]
-	}
+	- request param : 
+		- is_active=boolean
+			- required false(설정하지 않고 호출시 활성상태 구분 없이 모든 스포츠 리스트 조회) 
+	- response body : 
+		{
+			sports : [
+				{
+					name : string,
+					image_url : string
+				}
+			]
+		}
 
 [Page 3-1]
 - 선수 리스트 조회
