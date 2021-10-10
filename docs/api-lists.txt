@@ -1,5 +1,16 @@
 [Page 1]
 - 스포츠 리스트 조회
+	- method : GET
+	- url : /sports
+	- request param : is_active=boolean 
+	- response body : {
+		sports : [
+			{
+				name : string,
+				image_url : string
+			}
+		]
+	}
 
 [Page 3-1]
 - 선수 리스트 조회
