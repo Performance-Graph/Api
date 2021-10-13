@@ -20,6 +20,7 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 
 1. [draw.io](https://app.diagrams.net) 접속
 2. `https://raw.githubusercontent.com/Performance-Graph/Front/master/docs/design.drawio`을 이용하여 file open 
+3. [Figma 링크](https://www.figma.com/file/JNqiWZA7T4MeGw2vcZCIdA/Performance-Graph?node-id=0%3A10)
 
 ## Network Flow
 
