@@ -7,7 +7,6 @@ import org.springframework.boot.SpringApplication;
 public class PerformanceGraphApplication {
 
     public static void main(String[] args) {
-
         SpringApplication.run(PerformanceGraphApplication.class, args);
     }
 }
