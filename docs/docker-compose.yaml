@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  db:
+    image: mysql:8
+    restart: always
+    command: --lower_case_table_names=1
+    container_name: db_performance_graph # 컨테이너 이름 설정
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=performance_graph
+      - MYSQL_ROOT_PASSWORD=root
+      - TZ=Asia/Seoul
+
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - /Users/Shared/data/mysql-test:/var/lib/mysql
