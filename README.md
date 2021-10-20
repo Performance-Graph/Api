@@ -27,6 +27,11 @@ Performance-Graph는 축구 선수들의 시즌별 성과 지표를(ex 골, 출�
 1. [draw.io](https://app.diagrams.net) 접속
 2. `https://raw.githubusercontent.com/Performance-Graph/Api/master/docs/network.drawio`을 이용하여 file open
 
+## ERD
+
+1. [draw.io](https://app.diagrams.net) 접속
+2. `https://raw.githubusercontent.com/Performance-Graph/Api/master/docs/erd.drawio`을 이용하여 file open
+
 ## Configuration
 - IDE : Intellij
 - Language : Java 11(zulu11.50.19-ca-jdk11.0.12)
