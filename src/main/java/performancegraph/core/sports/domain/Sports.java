@@ -1,31 +1,21 @@
 package performancegraph.core.sports.domain;
 
-import org.hibernate.annotations.UpdateTimestamp;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.time.LocalDateTime;
 
+import lombok.Getter;
+import performancegraph.core.common.BaseEntity;
+import performancegraph.core.common.Constant;
+
+@Getter
 @Entity
 @Table(name = "sports")
-public class Sports {
+public class Sports extends BaseEntity{
     @Id
     private Long sportsId;
 
-    @Column(nullable = false)
-    private String position;
-    @Column(nullable = false)
-    private String nationality;
-    @Column(nullable = false)
-    private int height;
-    @Column(nullable = false)
-    private int weight;
-    @UpdateTimestamp
-    @Column(nullable = false)
-    private LocalDateTime createAt;
-    @UpdateTimestamp
-    @Column(nullable = false)
-    private LocalDateTime updateAt;
+    @Column(nullable = false, length = Constant.IMAGE_URL_MAX_LENGTH)
+    private String imageUrl;
 }
