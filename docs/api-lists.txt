@@ -17,7 +17,73 @@
 		}
 
 [Page 3-1]
-- 선수 리스트 조회
+- 선수 리스트 전체 조회
+    - method : GET
+    - url : /v1/performance/players/all
+    - request param :
+        - page : int
+            - required false (설정하지 않고 호출 시 디폴트로 첫번째 페이지를 조회)
+        - size : int
+            - required false (설정하지 않고 호출 시 디폴트 사이즈로 20 개의 리스트를 조회)
+    - response body :
+        {
+            total_count : int   전체 갯수
+            current_page : int  현재 페이지
+            players : [
+                {
+                    player_id : int	        선수 id
+                    name : string	        이름
+                    position : string	    선수 포지션
+                    nationality : string	출생 국가
+                    height : int	        키
+                    weight : int	        몸무게
+                    birthdate : string	    생일
+                },
+                ...
+            ]
+        }
+- 선수 단건 조회
+    - method : GET
+    - url : /v1/performance/players/{id}
+    - request param :
 
+    - response body :
+        {
+            player_id : int	        선수 id
+            name : string	        이름
+            position : string	    선수 포지션
+            nationality : string	출생 국가
+            height : int	        키
+            weight : int	        몸무게
+            birthdate : string	    생일
+        }
+
+- 플레이어 이름으로 조회
+    - method : GET
+    - url : /v1/performance/players/by-name
+    - request param :
+        - name : string 조회할 선수 이름
+            - required true
+        - page : int
+            - required false (설정하지 않고 호출 시 디폴트로 첫번째 페이지를 조회)
+        - size : int
+            - required false (설정하지 않고 호출 시 디폴트 사이즈로 20 개의 리스트를 조회)
+    - response body :
+        {
+            total_count : int   전체 갯수
+            current_page : int  현재 페이지
+            players : [
+                {
+                    player_id : int	        선수 id
+                    name : string	        이름
+                    position : string	    선수 포지션
+                    nationality : string	출생 국가
+                    height : int	        키
+                    weight : int	        몸무게
+                    birthdate : string	    생일
+                },
+                ...
+            ]
+        }
 [Page 4]
 - 그래프 데이터 조회
